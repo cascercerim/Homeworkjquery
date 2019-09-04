@@ -1,0 +1,102 @@
+body{
+    /* background: url(../images/crystals.jpg);  */
+        background-size: cover;
+        background: url(../images/ripple.jpg);
+    }
+    
+    
+    h1{
+        color: lightslategray;
+        background-color: #ffffff;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Marmelad', sans-serif;
+        border: #828282 1px solid;
+    }
+    
+    
+    /* placing crystals on next line */
+    #buttons{
+        display: block;
+        clear: both;
+        padding-left: 10px;
+    }
+    
+    
+    
+    p{
+        font-size: 16px;
+    }
+    
+    .directions{
+        color: lightslategray;
+        width:600px; 
+        height:300px;
+        font-family: 'Maitree', serif;
+        padding: 5px;
+        background-color: #ffffff;
+        opacity: 0.7;
+        padding: 15px;
+        margin: 10px;
+        border: #828282 1px solid;
+       
+    }
+    
+    .wrapper{
+        float: inline-block; 
+    }
+    
+    .score-card{
+        font-family: 'Encode Sans', sans-serif;
+        color: lightslategray;
+        background-color: #ffffff;
+        opacity: 0.7;
+        height: 100px;
+        padding: 10px;
+        float: left; 
+        width: 100px;
+        margin: 10px;
+        border: #828282 1px solid;
+        
+    }
+    
+    
+    .score{
+        font-family: 'Encode Sans', sans-serif;
+        color: lightslategray;
+        background-color: #ffffff;
+        opacity: 0.7;
+        float: left; 
+        width: 200px;
+        height: 100px;
+        padding: 10px;
+        margin: 10px;
+        border: #828282 1px solid;
+    }
+    .total-score{  
+        color: lightslategray;
+        background-color: #ffffff;
+        opacity: 0.7;
+        width: 200px;
+        height: 30px;
+        font-family: 'Encode Sans', sans-serif;
+        margin: 10px;
+        padding-left: 5px;
+        padding: 2px;
+        border: #828282 1px solid;
+    }
+    
+    #my-total{
+        font-family: 'Encode Sans', sans-serif;
+        color: lightslategray;
+        background-color: #ffffff;
+        width: 200px;
+        height: 60px;
+        opacity: 0.7;
+        margin: 10px;
+        padding: 10px;
+        font-size: 20px bold;
+        border: #828282 1px solid;
+    }
